@@ -6,8 +6,16 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 /*contenitore per centrare sezioni*/
-.centrone {
+.center-cont {
   width: 90%;
   margin: 0 auto;
 }
@@ -17,15 +25,83 @@
   display: table;
   content: "";
   clear: both;
-
 }
 
+/* navigationbar */
+nav {
+  width: 100%;
+  height: 80px;
+  background: white;
+  /* position: fixed; */
+  /* z-index: 999; */
+}
+
+/* contenitore per centrare navbar*/
+.center-cont-nav {
+  width: 70%;
+  margin: auto;
+}
+
+#helbiz-logo {
+  width: 90px;
+  height: auto;
+  float: left;
+  margin: 28px 28% 0 0;
+}
+
+.nav-list li a {
+  color: black;
+  font-size: 12px;
+  font-family: helvetica;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 80px;
+  float: left;
+  padding-right: 4%;
+}
+
+.language-list li a {
+  padding-right: 1%;
+}
 
 /*header*/
 header {
-  height: 150px;
-  background: yellow;
+  /* height: 550px; */
+  background-image: url("immagini/header-bg2.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
+
+.head-text {
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+  padding: 10% 0 10% 0;
+}
+
+.head-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.head-text p {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1% 0 2% 0;
+}
+
+
+.size {
+  width: 180px;
+  height: auto;
+  margin-left: 5%;
+}
+
+
+
+
+
+
 
 /*main*/
 
