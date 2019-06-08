@@ -176,6 +176,7 @@ section {
 .section3-bg {
   background-image: url("immagini/bg-monopattino.png");
   background-size: cover;
+  margin-bottom: 3%;
 }
 
 .col-smart {
@@ -203,6 +204,46 @@ section {
   font-size: 20px;
   font-weight: 400;
 }
+
+/* sezione 4 a due colonne*/
+
+.col-app-bg {
+  background-image: url("immagini/helbiz-app.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.col-find-bg {
+  background-image: url("immagini/firenze.jpg");
+  background-size: cover;
+}
+
+.padding-app-find {
+  padding-bottom: 30%;
+}
+
+.col-text-style {
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+}
+
+.col-text-style h2 {
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.col-text-style p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 2% 0 2% 0;
+}
+
+.col-text-style a {
+  color: white;
+}
+
+
 
 
 
