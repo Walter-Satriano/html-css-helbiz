@@ -67,9 +67,10 @@ nav {
 /*header*/
 header {
   /* height: 550px; */
-  background-image: url("immagini/header-bg2.jpg");
+  background-image: url("immagini/header-bg.jpg");
   background-size: cover;
   background-position: bottom;
+  margin-bottom: 5%;
 }
 
 .head-text {
@@ -80,12 +81,12 @@ header {
 }
 
 .head-text h1 {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 700;
 }
 
 .head-text p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   padding: 1% 0 2% 0;
 }
@@ -94,38 +95,55 @@ header {
 .size {
   width: 180px;
   height: auto;
-  margin-left: 5%;
+  margin: 0 2% 0 2%;
 }
-
-
-
-
-
-
 
 /*main*/
 
 section {
-  height: 100px;
-  background: gray;
+  height: 400px;
+  background: white;
   border: solid 1px #000;
 }
 
-.col {
-  height: 100px;
-  border: solid 1px #000;
-  background: green;
-  float: left;
-  width: 45%;
-}
-
+/*regole generali per sezioni a 2 colonne*/
 .row .col:first-child {
   margin-right: 10%;
 }
 
+.col {
+  /* height: 300px; */
+  /* border: solid 1px #000; */
+  float: left;
+  width: 45%;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.product {
+  background: #FAFAFA;
+  text-align: center;
+}
+
+.product h4, a {
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+  line-height: 2;
+  padding-top: 3%;
+}
+
+.img-product img {
+  width: 250px;
+  height: auto;
+  padding-top: 2%;
+}
+
+
+
 
 /*footer*/
 footer {
-  height: 150px;
+  height: 500px;
   background: #000;
 }
