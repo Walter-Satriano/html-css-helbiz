@@ -101,7 +101,7 @@ header {
 /*main*/
 
 section {
-  height: 400px;
+  /* height: 700px; */
   background: white;
   border: solid 1px #000;
 }
@@ -118,8 +118,10 @@ section {
   width: 45%;
   padding-top: 4%;
   padding-bottom: 3%;
+  margin-bottom: 5%;
 }
 
+/* sezione1 a due colonne*/
 .product {
   background: #FAFAFA;
   text-align: center;
@@ -138,6 +140,70 @@ section {
   height: auto;
   padding-top: 2%;
 }
+
+/* sezione 2 */
+.section2-bg {
+  position: relative;
+  height: 500px;
+  background-image: url("immagini/helbizmilano.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15%;
+}
+
+#phone-slide {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background-image: url("immagini/monopattino.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 38px;
+}
+
+#how-does {
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  font-size: 30px;
+  font-family: helvetica;
+}
+
+/* sezione 3*/
+.section3-bg {
+  background-image: url("immagini/bg-monopattino.png");
+  background-size: cover;
+}
+
+.col-smart {
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+  width: 40%;
+  padding: 10% 15% 10% 0%;
+  float: right;
+}
+
+.col-smart h2 {
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.col-smart p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 3% 0 3% 0;
+}
+
+.col-smart a {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 
 
 
