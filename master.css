@@ -1,4 +1,4 @@
-/*regole generiche*/
+/* regole generiche */
 
 * {
   margin: 0;
@@ -14,13 +14,13 @@ li {
   list-style-type: none;
 }
 
-/*contenitore per centrare sezioni*/
+/* contenitore per centrare sezioni */
 .center-cont {
   width: 90%;
   margin: 0 auto;
 }
 
-/*contenitore di colonne in float*/
+/* contenitore di colonne in float */
 .row::after {
   display: table;
   content: "";
@@ -32,12 +32,12 @@ nav {
   width: 100%;
   height: 80px;
   background: white;
-  /* position: fixed; */
-  /* z-index: 999; */
+  position: fixed;
+  z-index: 999;
 }
 
-/* contenitore per centrare navbar*/
-.center-cont-nav {
+/* contenitore per centrare navbar e footer */
+.center-cont-nav-e-footer {
   width: 70%;
   margin: auto;
 }
@@ -64,7 +64,7 @@ nav {
   padding-right: 1%;
 }
 
-/*header*/
+/* header */
 header {
   background-image: url("immagini/header-bg.jpg");
   background-size: cover;
@@ -90,9 +90,8 @@ header {
   padding: 1% 0 2% 0;
 }
 
-
 .size {
-  width: 180px;
+  width: 150px;
   height: auto;
   margin: 0 2% 0 2%;
 }
@@ -102,7 +101,7 @@ section {
   background: white;
 }
 
-/*regole generali per sezioni a 2 colonne*/
+/* regole generali per sezioni a 2 colonne */
 .row .col:first-child {
   margin-right: 10%;
 }
@@ -115,7 +114,7 @@ section {
   margin-bottom: 5%;
 }
 
-/* sezione1 a due colonne*/
+/* sezione1 a due colonne */
 .product {
   background: #FAFAFA;
   text-align: center;
@@ -126,7 +125,10 @@ section {
   font-family: helvetica;
   font-weight: lighter;
   line-height: 2;
-  padding-top: 3%;
+}
+
+.product img {
+  padding-bottom: 3%;
 }
 
 .img-product img {
@@ -166,7 +168,7 @@ section {
   font-family: helvetica;
 }
 
-/* sezione 3*/
+/* sezione 3 */
 .section3-bg {
   background-image: url("immagini/bg-monopattino.png");
   background-size: cover;
@@ -199,7 +201,7 @@ section {
   font-weight: 400;
 }
 
-/* sezione 4 a due colonne*/
+/* sezione 4 a due colonne */
 .col-app-bg {
   background-image: url("immagini/helbiz-app.png");
   background-size: cover;
@@ -236,7 +238,7 @@ section {
   color: white;
 }
 
-/*sezione 5*/
+/* sezione 5*/
 .section5-bg {
   position: relative;
   height: 450px;
@@ -272,13 +274,59 @@ section {
   height: auto;
 }
 
-
-
-
-
-
-/*footer*/
+/* footer */
 footer {
-  height: 500px;
-  background: #000;
+
+  background: black;
+  padding-top: 5%;
+}
+
+/* definizione 4 colonne nel footer */
+.col-footer {
+  width: calc(100%/4);
+  float: left;
+  padding-bottom: 2%;
+  margin-bottom: 8%;
+}
+
+.col-footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: helvetica;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 6%;
+}
+
+.col-footer li a {
+  font-size: 16px;
+  font-family: helvetica;
+  color: lightgray;
+}
+
+/*definizione footer-bar*/
+.footer-bar {
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+  width: calc(100%/4);
+  float: left;
+  padding: 5% 0 5% 0;
+  margin-bottom: 5%;
+}
+
+.footer-bar a {
+  font-size: 16px;
+  font-family: helvetica;
+  color: white;
+}
+
+.icon {
+  width: 22px;
+  height: auto;
+  margin-right: 4%;
+}
+
+.store {
+  text-align: center;
+  padding-bottom: 5%;
 }
